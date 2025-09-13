@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1>Welcome back 👋</h1>
+    <p class="subtitle">Sign in to continue to your dashboard</p>
+
+    <form class="login-form">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email address" required>
+
+      <label for="password">Password</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Enter your password" minlength="6" required>
+        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+      </div>
+      <small class="note">Password must be at least 6 characters long.</small>
+
+      <div class="options">
+        <label><input type="checkbox" /> Remember me for 30 days</label>
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="btn-login">Sign In</button>
+
+      <div class="signup-link">
+        New to WebTech Practice? <a href="#">Create an account</a>
+      </div>
+
+      <button type="button" class="btn-demo">⚡ Quick Demo</button>
+    </form>
+  </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TODO LIST</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TODOLIST</h1>
+
+    <div class="input-section">
+      <input type="text" placeholder="what needs to be done?" />
+      <button class="add-btn">+</button>
+    </div>
+
+    <ul class="todo-list">
+      <li>
+        <input type="checkbox">
+        <span>read the book (at least 5 pages</span>
+        <div class="actions">
+          <button class="edit-btn">✎</button>
+          <button class="delete-btn">✖</button>
+        </div>
+      </li>
+      <li class="done">
+        <input type="checkbox" checked>
+        <span>buy dog food</span>
+        <div class="actions">
+          <button class="edit-btn">✎</button>
+          <button class="delete-btn">✖</button>
+        </div>
+      </li>
+      <li>
+        <input type="checkbox">
+        <span>call my parents</span>
+        <div class="actions">
+          <button class="edit-btn">✎</button>
+          <button class="delete-btn">✖</button>
+        </div>
+      </li>
+      <li class="done">
+        <input type="checkbox" checked>
+        <span>clean my working place</span>
+        <div class="actions">
+          <button class="edit-btn">✎</button>
+          <button class="delete-btn">✖</button>
+        </div>
+      </li>
+      <li class="done">
+        <input type="" checked>
+        <span>kill Bill</span>
+        <div class="actions">
+          <button class="edit-btn">✎</button>
+          <button class="delete-btn">✖</button>
+        </div>
+      </li>
+    </ul>
+
+    <div class="bottom-bar">
+      <div class="task-status">
+        <span class="count">3 of 5 tasks</span>
+        <input type="text" value="done" readonly />
+      </div>
+      <button class="remove-btn">Remove checked</button>
