@@ -195,16 +195,3 @@ button:hover {
     border-radius: 10px;
 
 }
-.button,.button1{
-    position: absolute;
-    bottom: 390px;  
-    right: 480px;
-    border: 1px solid grey;
-    height: 50px;
-    width: 60px;
-    text-align: center;
-}
-.button1{
-    position: absolute;
-    right: 120px;
-}
